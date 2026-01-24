@@ -6,7 +6,7 @@ COPY backend/package*.json ./
 
 RUN npm install --no-audit --no-fund
 
-COPY backend/ .
+COPY backend ..
 
 EXPOSE 5000
 CMD ["npm", "start"]
