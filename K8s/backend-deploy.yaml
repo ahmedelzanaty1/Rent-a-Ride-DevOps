@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: backend
-          image: rent-a-ride-backend:latest   # مؤقت
-          imagePullPolicy: IfNotPresent
+          image: a7medelzanaty/backend-app:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 5000
           env:
