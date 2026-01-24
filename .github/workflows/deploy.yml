@@ -26,7 +26,7 @@ jobs:
 
       - name: Build and Push Frontend Image
         run: |
-          docker build -t a7medelzanaty/frontend-app:latest ./frontend
+          docker build -t a7medelzanaty/frontend-app:latest ./client
           docker push a7medelzanaty/frontend-app:latest
 
       - name: Configure AWS credentials
